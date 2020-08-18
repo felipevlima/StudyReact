@@ -1,0 +1,19 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "allowJs": true,
+    "jsx": "react",
+    "outDir": "/dist",
+    "rootDir": "/",
+    "isolatedModules": true,
+    "strict": true,
+    "moduleResolution": "Node",
+    "baseUrl": "./src",
+    "typeRoots": ["node_modules/@types"],
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
